@@ -1,0 +1,50 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+#button {
+  background-color: #327ab7;
+  color: white;
+  border-radius: 3px;
+  border: 0.3px solid black;
+  height: 30px;
+  width: 50px;
+}
+
+#box {
+  border-radius: 3px;
+  border: 0.5px solid #e8e8e8;
+  height: 30px;
+  width: 250px;
+}
+
+
+.page {
+  display: flex;
+  // width: 500px;
+  margin: 0px 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: 'Raleway', sans-serif;
+}
+
+.question{
+  margin-bottom: 20px;
+  padding: 10px;
+  border-left: 3px solid #e8e8e8;
+
+}
+
+.answer {
+  margin-bottom: 10px;
+  background-color: #ffffe1;
+  padding: 10px;
+  border-left: 3px solid #e8e8e8;
+}
+
+.backbtn a {
+  text-decoration: none;
+}
